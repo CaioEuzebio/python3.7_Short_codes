@@ -1,3 +1,4 @@
+"""Thanks PyTec team - FATEC - Jundiaí"""
 ops = [1,2,3,4]
 op = int(input("""Digite a operação: 
                     1 - Soma 
