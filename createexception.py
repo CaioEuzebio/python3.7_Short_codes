@@ -1,4 +1,4 @@
-class ValorRepetidoErro(Exception):
+class ValueWasTyped(Exception):
     def __str__(self):
         return 'number was typed'
 def main():
@@ -15,7 +15,7 @@ def main():
         if num not in list:
             list.append(num)
         else:
-            raise ValorRepetidoErro
+            raise ValueWasTyped
         
 if __name__ == '__main__':
     main()
